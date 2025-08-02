@@ -1,4 +1,4 @@
-// This file will export middleware as the application grows
+// This file exports available middleware
 module.exports = {
-  // Add your middleware here
+  ...require('./auth'),
 };
